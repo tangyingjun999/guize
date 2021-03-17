@@ -1,0 +1,12 @@
+hostname = photos.adobe.io, api.picsart.c*, api.meiease.c*,
+
+
+
+
+
+
+#PicsArt
+^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/picsart.js
+
+#lightroom
+^https:\/\/photos\.adobe\.io\/v2\/accounts* url script-response-body https://raw.githubusercontent.com/24says/SurgeScripts/main/Adobe/Lightroom.js
